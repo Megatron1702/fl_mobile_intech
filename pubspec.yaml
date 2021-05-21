@@ -1,0 +1,47 @@
+name: fl_mobile_intech
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  file_picker: ^3.0.1
+  html: ^0.15.0
+  http: any
+  pinput: ^1.2.0
+  shared_preferences: any
+  smooth_page_indicator: ^0.2.3
+  url_launcher: ^6.0.3
+  image_picker: ^0.7.4
+  provider: ^5.0.0
+  firebase_core: ^1.1.0
+  firebase_analytics: ^8.0.3
+  firebase_crashlytics: ^2.0.3
+  firebase_messaging: ^10.0.0
+  flutter_local_notifications: ^5.0.0+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - Assets/Images/
+
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: Assets/Fonts/Roboto-Regular.ttf
+         - asset: Assets/Fonts/Roboto-Bold.ttf
